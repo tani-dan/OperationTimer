@@ -18,7 +18,7 @@ public class Timer {
         return this.endTime;
     }
 
-    public long getTotalTime() {
+    public double getTotalTime() {
         return this.endTime - this.startTime;
     }
 }
